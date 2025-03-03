@@ -1,0 +1,113 @@
+/* styles.css */
+
+/* Container principal */
+.logement-details {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Titre principal */
+  .logement-details h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Image du logement */
+  .logement-details img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Détails du logement */
+  .logement-details p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Prix et détails importants */
+  .logement-details .price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #27ae60; /* Couleur pour le prix */
+    margin-bottom: 20px;
+  }
+  
+  /* Section description */
+  .logement-details .description {
+    font-size: 1.1rem;
+    color: #777;
+    line-height: 1.6;
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  /* En-tête de section */
+  .logement-details p strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Loader pendant le chargement */
+  .logement-details p.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #888;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Stylisation du bouton Réserver */
+.reserve-btn {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 12px;
+    background-color: #27ae60; /* Couleur du bouton */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Effet de survol du bouton */
+  .reserve-btn:hover {
+    background-color: #1e5b14; /* Couleur plus foncée au survol */
+    transform: translateY(-2px); /* Effet léger de montée */
+  }
+  
+  /* Effet de focus pour l'accessibilité */
+  .reserve-btn:focus {
+    outline: 2px solid #ffbf00; /* Contour doré au focus */
+    outline-offset: 4px;
+  }
+  
+  
